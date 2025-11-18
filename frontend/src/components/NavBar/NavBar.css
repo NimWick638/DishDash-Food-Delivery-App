@@ -108,3 +108,18 @@
     background-color: rgb(252, 70, 34);
     transition: all 0.3s ease;
 }
+
+.navbar-basket-icon {
+    position: relative;
+ 
+}
+.navbar-basket-icon .dot {
+    posItion :absolute;
+    min-width: 10px;
+    min-height: 10PX;
+    background-color: tomato;   
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+    ;
+}
