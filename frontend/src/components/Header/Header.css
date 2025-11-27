@@ -13,6 +13,7 @@
     align-items : start; 
     gap : 1.5vw;
     max-width : 50% ; 
+    top: 2px;
     bottom : 10% ;
     left : 6vw;
     animation : fadeIn 2s ; 
@@ -31,6 +32,7 @@
     color : white ;
     font-size : max(1.2vw,12px);
     line-height : 1.5;
+    text-decoration: line-through;
 }
 
 .header-content button {
@@ -42,5 +44,6 @@
     background-color : white ;
     font-size : max(1vw,13px);
     border-radius : 50px; 
+    cursor : pointer ; 
     
 }
