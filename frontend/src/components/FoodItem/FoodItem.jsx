@@ -14,7 +14,7 @@ const FoodItem = ({ id, name, price, description, image }) => {
             <div className='food-item-img-container'>
                 <img className='food-item-image' src={image} alt="" />
                 {
-                    !cartItems ? <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} />
+                    !cartItems[id] ? <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} />
                         : <div className='food-item-counter' >
                             <img src={assets.remove_icon_red} onClick = {()=> removeFromCart(id) }alt="" className="reducer" />
                             <p>{Math.max(cartItems[id],0)}</p>
